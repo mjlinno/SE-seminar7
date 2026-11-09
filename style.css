@@ -21,8 +21,7 @@ body {
   padding: 0 1rem;
 }
 
-.intro,
-.more {
+.intro {
   text-align: center;
 }
 
@@ -37,24 +36,24 @@ body {
   margin-top: 0.5rem;
 }
 
-.source {
-  display: block;
-  margin: 0.75rem 0;
-}
-
-.more {
-  margin-top: 0.75rem;
-}
-
 img {
   display: block;
   width: auto;
   max-width: 100%;
   height: 220px;
   object-fit: contain;
+  margin: 1.25rem auto 0;
   border: 4px solid #93c5fd;
   border-radius: 12px;
   box-shadow: 0 6px 16px rgba(15, 23, 42, 0.25);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+  text-align: center;
 }
 
 table {
@@ -81,6 +80,11 @@ tbody tr:nth-child(even) {
 @media (max-width: 700px) {
   .columns {
     grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .links {
+    flex-direction: column;
     gap: 0.5rem;
   }
 }
