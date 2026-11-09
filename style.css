@@ -7,3 +7,19 @@ h1 {
   border-bottom: 3px solid #93c5fd;
   padding-bottom: 0.35rem;
 }
+
+body {
+  color: #334155;
+  font-family: Arial, sans-serif;
+  font-size: 1.05rem;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  border: 4px solid #93c5fd;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(15, 23, 42, 0.25);
+}
